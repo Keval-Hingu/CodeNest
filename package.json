@@ -1,0 +1,24 @@
+{
+  "name": "codenest",
+  "version": "1.0.0",
+  "description": "Codenest - An AI-integrated web-based platform for computer science/IT students.\n",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "backednd/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run backend/index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "tailwindcss": "^4.1.11",
+    "uploadthing": "^7.7.3"
+  }
+}
